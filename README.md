@@ -22,7 +22,7 @@ Taking what I learned from the UPS Locator API, I found that the UPS Tracking AP
 ## UPS Tracking Web API for Shipping Reference Number
 
 There are multiple ways to get tracking info when you have a tracking number. However, I could only find 1 way to get it if you are only provided a shipping reference number. The url to get a link directly to their Tracking page using a reference number is as follows:
-```https://www.ups.com/WebTracking/reference?loc=en_US&track.x=Track&ReferenceNumber=<YOUR_REFERENCE_NUMBER>&trackref.x=Track&FromDatepicker=06152016&ToDatepicker=07132016```
+``` https://www.ups.com/WebTracking/reference?loc=en_US&track.x=Track&ReferenceNumber=<YOUR_REFERENCE_NUMBER>&trackref.x=Track&FromDatepicker=06152016&ToDatepicker=07132016 ```
 
 Some fun notes include:
 * From and To dates are required. If you are curious, their max To date input is 12312100. Beyond that, it returns an error.
